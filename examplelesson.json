@@ -1,0 +1,194 @@
+{
+  "comment": "Example Lesson",
+  "curriculum": "example_curriculum",
+  "gid": 100,
+  "units": [
+    {
+      "id": "300",
+      "name": "Example Lesson",
+      "description": "Unit For Example Lesson",
+      "grade": "3",
+      "days": "10",
+      "filepath": "https://test.stmath.com/test/lessons/Example_Lesson.json",
+      "lessons": [
+        {
+          "id": "101",
+          "number": "3",
+          "title": "Component Demo: Fair Sharing",
+          "minutes": "30",
+          "icon": "https://test.stmath.com/test/images/fairSharing.png",
+          "description": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">In this Component Demo you will experience how core activities work within the CMS and the Classroom Platform. </span></p>",
+          "objectives": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Students will understand how core activities work within the CMS and the Classroom Platform. </span></p>",
+          "materials": "<ul><li><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Square Tiles</span></li></ul>",
+          "concepts_development": "",
+          "language_development": "",
+          "extensions": "",
+          "sections": [
+            {
+              "name": "Launch: Play Activities",
+              "description": "Students will participate in a Puzzle Talk by completing a set of puzzles and then participating in a whole class discussion.",
+              "type": "Launch",
+              "image": "https://test.stmath.com/test/images/section1.png",
+              "image_caption": "Section 1 Image",
+              "minutes": 15,
+              "activities": [
+                {
+                  "id": "1",
+                  "name": "Intro",
+                  "activity_type": "Custom Slide",
+                  "activity_mode": "Teacher Play",
+                  "json": "./mock/activities/devtest/intro_v1.json",
+                  "sequence_length": "1",
+                  "image": "https://test.stmath.com/test/images/intro.png",
+                  "image_caption": "Intro Caption",
+                  "minutes": "10",
+                  "details": "",
+                  "discourse": "",
+                  "look_for": ""
+                },
+                {
+                  "id": "2",
+                  "name": "Activity 1",
+                  "activity_type": "Play Level",
+                  "activity_mode": "Student Paced",
+                  "json": "./mock/activities/devtest/play_fairsharing_level_v1.json",
+                  "sequence_length": "1",
+                  "image": "https://test.stmath.com/test/images/activity1_1.png",
+                  "image_caption": "Activity 1 Caption",
+                  "minutes": "10",
+                  "details": "",
+                  "discourse": "",
+                  "look_for": ""
+                },
+                {
+                  "id": "3",
+                  "name": "Activity 2",
+                  "activity_type": "Play Puzzle",
+                  "activity_mode": "Teacher Paced",
+                  "json": "./mock/activities/devtest/play_fairsharing_puzzle_v1.json",
+                  "sequence_length": "1",
+                  "image": "https://test.stmath.com/test/images/activity1_2.png",
+                  "image_caption": "Activity 2 Caption",
+                  "minutes": "5",
+                  "details": "<ol><li><span style=\"background-color: transparent;\">Share your screen.&nbsp;</span></li><li><span style=\"background-color: transparent;\">Guide students to explain their thinking using the discourse questions.</span></li><li><span style=\"background-color: transparent;\">As students share, act out what they are thinking.&nbsp; </span></li></ol><p><br></p>",
+                  "discourse": "<ol><li><span style=\"background-color: transparent;\">What did you have to figure out? What information was missing?</span></li><li><span style=\"background-color: transparent;\">What do we know about the puzzle?</span></li><li><span style=\"background-color: transparent;\">How do what we know help us figure out the puzzle?</span></li><li><span style=\"background-color: transparent;\">How did you decide (or think about) the number of blocks each turtle should have?</span></li><li><span style=\"background-color: transparent;\">What about this puzzle reminds you of things that we do in math? Explain.</span></li></ol><p><br></p>",
+                  "look_for": ""
+                }
+              ]
+            },
+            {
+              "name": "1: Write Symbolically Sequence",
+              "description": "Students play an activity sequence where they model the problem symbolically and solve the puzzle.",
+              "type": "Explore",
+              "image": "https://test.stmath.com/test/images/section2.png",
+              "image_caption": "Section 2 Image",
+              "minutes": 10,
+              "activities": [
+                {
+                  "id": "1",
+                  "name": "Activity 1",
+                  "activity_type": "Sequence: Write Symbolically",
+                  "activity_mode": "Student Paced",
+                  "json": "./mock/activities/devtest/write_symbolically_fairsharing.json",
+                  "sequence_length": "3",
+                  "image": "https://test.stmath.com/test/images/activity2_1.png",
+                  "image_caption": "Activity 1 Caption",
+                  "minutes": "10",
+                  "details": "<ol><li><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Have students play through a series activity independently.</span></li></ol>",
+                  "discourse": "",
+                  "look_for": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Students who:</span></p><ul><li><span style=\"background-color: transparent;\">Stuck students.</span></li><li><span style=\"background-color: transparent;\">Students who wrote a division expression/equation. </span></li></ul><p><br></p>"
+                }
+              ]
+            },
+            {
+              "name": "2: Show It",
+              "description": "Students explain the strategy they would use to solve the puzzle using magnets.",
+              "type": "Explore",
+              "image": "https://test.stmath.com/test/images/section3.png",
+              "image_caption": "Section 3 Image",
+              "minutes": 10,
+              "activities": [
+                {
+                  "id": "2",
+                  "name": "Activity 1",
+                  "activity_type": "Show It - Show Thinking",
+                  "activity_mode": "Teacher Paced",
+                  "json": "./mock/activities/devtest/show_your_thinking_fairsharing_v1.json",
+                  "sequence_length": "1",
+                  "image": "https://test.stmath.com/test/images/activity3_1.png",
+                  "image_caption": "Activity 1 Caption",
+                  "minutes": "10",
+                  "details": "<ol><li><span style=\"background-color: transparent;\">Have students show the strategy they would use to solve the puzzle using magnets.&nbsp;</span></li><li><span style=\"background-color: transparent;\">Select 2-3 student submissions to share. Have the student explain their thinking. </span></li></ol><p><br></p>",
+                  "discourse": "<ul><li><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">How did you equally share the blocks amongst the critters?</span></li></ul>",
+                  "look_for": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Students who:</span></p><ul><li><span style=\"background-color: transparent;\">Students who used visuals to show their thinking</span></li><li><span style=\"background-color: transparent;\">Students who wrote an equation to show their thinking</span></li></ul><p><br></p>"
+                }
+              ]
+            },
+            {
+              "name": "Reflect & Analyze",
+              "description": "Students reflect on how they modeled the problem.",
+              "type": "Reflect and Connect",
+              "image": "https://test.stmath.com/test/images/section4.png",
+              "image_caption": "Section 4 Image",
+              "minutes": 5,
+              "activities": [
+                {
+                  "id": "3",
+                  "name": "Activity 1",
+                  "activity_type": "Reflect & Analyze",
+                  "activity_mode": "Teacher Paced",
+                  "json": "./mock/activities/devtest/reflect_and_analyze_fairsharing_v1.json",
+                  "sequence_length": "1",
+                  "image": "https://test.stmath.com/test/images/activity4_1.png",
+                  "image_caption": "Activity 1 Caption",
+                  "minutes": "5",
+                  "details": "<ol><li><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Have students respond to the question: “How did you find the solution to this puzzle?”</span></li></ol>",
+                  "discourse": "",
+                  "look_for": ""
+                },
+                {
+                  "id": "4",
+                  "activityID": "custom-sequence",
+                  "name": "Custom Sequence",
+                  "contents": [
+                    {
+                      "type": "critterzoo",
+                      "activityType": "critterzoo-model",
+                      "attributes": {
+                        "src": "/test/magnetTool.html"
+                      },
+                      "UIOptions": {
+                        "drawingEnabled": true,
+                        "magnetsEnabled": true,
+                        "expressionsEnabled": false
+                      },
+                      "magnets": {
+                        "customMagnets": []
+                      },
+                      "options": {
+                        "arena": "CustomActivityArena",
+                        "puzzleDef": {
+                          "options": {
+                            "promptText": ""
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "assignments": [
+            {
+              "description": "",
+              "pages": "3-4",
+              "puzzles": []
+            }
+          ],
+          "filepath": "https://test.stmath.com/test/lessons/Example_Lesson.json"
+        }
+      ]
+    }
+  ]
+}
